@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client({disableEveryone: true})
-const token = "NDkzMDg3NDg0MjU5OTkxNTYz.Dof3Vw.PzmSzVu8yfU18eHTDYU3aUx8S8s"
+const token = "process.env.token"
 const botprefix = "/"
 const id = "493087484259991563"
 bot.commands = new Discord.Collection()
